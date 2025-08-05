@@ -29,11 +29,9 @@
   gap: 147px;
   padding: 0px;
 }
-
  .menu-icon {
     display: block;
   }
-
 .banner,.shadow img{
   width: 335px;
   height: 483px;
@@ -56,7 +54,6 @@
   font-weight: 400;
   margin-top:10px;
 }
-
 .bannerbtn{
   max-width: 287px;
   height: 288px;
@@ -111,6 +108,13 @@
   font-size: 1rem;
 }
 
+.popular-tour{
+  flex-direction: column;
+}
+.tourimg{
+  width: 330px;
+  height: 342px;
+}
 }
 
 

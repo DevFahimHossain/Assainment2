@@ -70,8 +70,6 @@ main{
 main > section{
   margin-top: 100px;
 }
-
-
 /* Section1  */
 .shadow img{
   width: 1170px;
@@ -83,12 +81,10 @@ main > section{
   background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
   border-radius: 16px;
 }
-
 .Banner-container{
   text-align: center;
   margin-top: -394px;
 }
-
 .bannerh1{
   color:rgba(255, 255, 255, 1) ;
   font-size: 3rem;
@@ -111,7 +107,6 @@ main > section{
   padding:16px ;
  
 }
-
 .btn1{
   width: 174px;
   height: 50px;
@@ -151,3 +146,47 @@ display: flex;
   background-color:rgba(255, 84, 0, 1) ;
   color: rgba(255, 255, 255, 1);
 }
+
+/* Section 1 End  */
+
+
+/* section 2  */
+
+.popular-tour{
+  display: flex;
+  max-width: 1170px;
+  height: 550px;
+  gap: 53px;
+}
+
+.tourh{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.tourp{
+  margin-top: 28px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+}
+.tourlist{
+  padding-left: 20px;
+  font-size: 1rem;
+  font-weight:400 ;
+  color: rgba(19, 19, 24, 0.7);
+}
+
+.btn{
+  margin-top: 35px;
+  padding: 14px 35px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgba(255, 84, 0, 1);
+}
+.tourimg{
+  max-width: 540px;
+  height: 540px;
+}
+
+/* section 2 end  */
