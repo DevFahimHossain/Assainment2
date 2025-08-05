@@ -55,6 +55,99 @@ nav{
 .nav-contant a{
  text-decoration: none;
  color:rgba(66, 66, 71, 1);
- font-size: 1.125rem;
- font-weight: 700;
+}
+.menu-icon {
+  display: none;
+  width: 24px;
+  cursor: pointer;
+}
+
+/* Main Style  */
+main{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+main > section{
+  margin-top: 100px;
+}
+
+
+/* Section1  */
+.shadow img{
+  width: 1170px;
+  height: 500px;
+}
+.banner{
+  width:1170px ;
+  height: 500px;
+  background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+  border-radius: 16px;
+}
+
+.Banner-container{
+  text-align: center;
+  margin-top: -394px;
+}
+
+.bannerh1{
+  color:rgba(255, 255, 255, 1) ;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.bannerp{
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top:24px;
+}
+.bannerbtn{
+  max-width: 800px;
+  margin-left: 185px;
+  margin-top: 48px;
+  border-radius: 8px;
+  background-color:rgba(255, 255, 255, 0.3);
+  display: flex;
+  gap: 24px;
+  padding:16px ;
+ 
+}
+
+.btn1{
+  width: 174px;
+  height: 50px;
+  padding:16px 70px 16px 16px ;
+  border-radius: 8px;
+  border: none;
+  color:rgba(19, 19, 24, 0.5) ;
+}
+.btn2{
+  width: 174px;
+  height: 50px;
+  padding:16px  16px 16px ;
+  border-radius: 8px;
+  border: none;
+   color:rgba(19, 19, 24, 0.5) ;
+display: flex;
+ gap: 50px;
+}
+.btn3{
+  width: 174px;
+  height: 50px;
+  padding:16px 16px 16px ;
+  border-radius: 8px;
+  border: none;
+  color:rgba(19, 19, 24, 0.5) ;
+  display: flex;
+  gap: 30px;
+}
+.btn4{
+  width: 174px;
+  height: 50px;
+  padding:16px 0 16px 40px ;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  gap: 10px;
+  background-color:rgba(255, 84, 0, 1) ;
+  color: rgba(255, 255, 255, 1);
 }
