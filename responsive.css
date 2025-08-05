@@ -115,10 +115,11 @@
   width: 330px;
   height: 342px;
 }
-
-.destination{
+.tourh{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 24px;
 }
-
 }
 
 
