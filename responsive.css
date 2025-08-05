@@ -1,0 +1,26 @@
+
+
+/* Small Device */
+
+@media screen and (max-width:576px) {
+  .nav-contant{
+    flex-direction: column;
+  }
+  
+}
+
+
+/* Medium Device */
+@media  screen and (min-width:576px) and (max-width:992px){
+
+}
+
+/* Mini Laptop Device */
+@media  screen and (min-width:993px) and (max-width:1200px){
+
+}
+
+/* Large Screen  */
+@media  screen and (min-width:1201px) and (max-width:1920px){
+
+}
